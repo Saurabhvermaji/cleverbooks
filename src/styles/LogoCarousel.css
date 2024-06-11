@@ -1,0 +1,27 @@
+.logo-carousel {
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.logo-carousel .slick-slide {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.logo-carousel img {
+    width: 130px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+@media (max-width:768px) {
+    .logo-carousel img {
+            width: 80%;
+            height: auto;
+            display: block;
+            margin: auto;
+        }
+}

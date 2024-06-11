@@ -1,0 +1,101 @@
+.key-metrics {
+    display: flex;
+    background-color: black;
+    color: white;
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.keyiconbuttonContainer {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 350px;
+}
+
+.icon-section {
+    position: relative;
+    color: white;
+}
+
+.icon-container {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 50%;
+    transition: top 0.3s ease;
+    color: white;
+    z-index: 1;
+}
+
+.icon-image {
+    width: 30px;
+    height: 30px;
+}
+
+.vertical-line {
+    width: 1px;
+    height: 135px;
+    background-color: #000;
+    position: absolute;
+    left: 14px;
+    color: white;
+    background-color: white;
+}
+
+.buttons-section {
+    margin-left: 50px;
+    height: 150px;
+}
+
+.metric-button {
+    background: none;
+    border: 0;
+    color: #000;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: white;
+    width: auto;
+    border-radius: 100px;
+}
+
+.metric-button.active {
+    border: solid 1px white;
+}
+
+.content-section {
+    margin: 0 auto;
+    text-align: center;
+    align-self: center;
+}
+
+.metric-number {
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.metric-description {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+@media (max-width : 768px) {
+
+    .keyiconbuttonContainer {
+        width: 280px;
+    }
+
+    .metric-number {
+        font-size: 3.5rem;
+        font-weight: bold;
+    }
+
+}

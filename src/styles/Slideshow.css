@@ -1,0 +1,104 @@
+.pagal {
+    background-color: rgb(243, 237, 237);
+    padding: 100px;
+    position: relative;
+}
+
+.pagal h1 {
+    text-align: center;
+}
+
+.slideshow-container {
+    border-radius: 20px;
+    overflow: hidden;
+    /* Hide overflow to ensure smooth animation */
+    background-color: white;
+}
+
+.slideshow-content {
+    display: flex;
+    transition: transform 0.5s ease;
+    /* Apply transition for smooth sliding animation */
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    flex: 0 0 100%;
+    /* Ensure each slide takes up full width */
+}
+
+.slide-image {
+    width: 40%;
+    height: auto;
+    padding: 20px;
+}
+
+.slide-text {
+    padding: 20px;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin: 30px;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+@media (max-width: 768px) {
+    .pagal {
+        padding: 50px;
+    }
+
+    .pagal h1 {
+        font-size: 1.5rem;
+    }
+
+    .slide {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slide-text {
+        text-align: center;
+    }
+
+    .slide-text h2 {
+        font-size: 13px;
+    }
+
+    .prev,
+    .next {
+        margin: 2px;
+    }
+
+    .slide-image {
+        width: 60%;
+        padding: 0;
+    }
+}

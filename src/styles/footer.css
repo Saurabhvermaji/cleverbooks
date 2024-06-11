@@ -1,0 +1,199 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+
+.footerCTA {
+    background-color: rgb(243, 239, 239);
+    color: black;
+    border-radius: 20px;
+    padding: 120px;
+    text-align: center;
+}
+
+.footerCTA h1 {
+    margin-bottom: 10px;
+}
+
+.footerCTA p {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.footerCTA button {
+    background-color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.footerCTA button:hover {
+    background-color: black;
+    color: white;
+}
+
+.footermaininfo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.footersec2 {
+    flex: 1;
+    text-align: center;
+}
+
+.footerbrandinfo {
+    text-align: start;
+}
+
+.footerbrandinfosmall {
+    display: none;
+}
+
+.footerbrandinfo img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.footersec2 p {
+    padding: 0;
+    margin: 0;
+}
+
+.footersec2 a,
+.footersec2 p {
+    display: block;
+    text-decoration: none;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.footeraddress a {
+    font-size: 13px;
+}
+
+.footersec2 a:hover {
+    text-decoration: underline;
+}
+
+.footerend {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.footerpvtltd {
+    flex: 1;
+}
+
+.footercopyright {
+    display: flex;
+    gap: 20px;
+}
+
+.footerpvtltd p {
+    font-size: 14px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.footerend button {
+    cursor: pointer;
+    width: 50px;
+    font-size: 30px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.footerend button:hover {
+    background-color: rgb(150, 141, 141)
+}
+
+@media (max-width:868px) {
+
+    footer {
+        padding: 20px;
+    }
+
+    .footerCTA {
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .footerCTA h1 {
+        font-size: 1rem;
+    }
+
+    .footerCTA p {
+        margin: 10px auto;
+        width: 100%;
+    }
+
+    .footerCTA button {
+        padding: 8px 10px;
+    }
+
+    .footermaininfo {
+        margin-top: 40px;
+    }
+
+    .footersec2 {
+        text-align: start;
+    }
+
+    .footerbrandinfo {
+        display: none;
+    }
+
+    .footerbrandinfosmall {
+        display: block;
+        margin-top: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .footerbrandinfosmall img {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footeraddress a {
+        font-size: 13px;
+    }
+
+    .footersec2 a:hover {
+        text-decoration: underline;
+    }
+
+    .footerend {
+        margin-top: 20px;
+    }
+
+    .footercopyright {
+        gap: 10px;
+    }
+
+    .footerpvtltd p {
+        font-size: 10px;
+    }
+
+    .footerend button {
+        width: 30px;
+        font-size: 20px;
+        height: 30px;
+    }
+
+}
