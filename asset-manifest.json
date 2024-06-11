@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/cleverbooks/static/css/main.c4a8b923.css",
+    "main.js": "/cleverbooks/static/js/main.44fa3b78.js",
+    "static/media/logo.png": "/cleverbooks/static/media/logo.87132192471f85bbe8e0.png",
+    "static/media/slick.svg": "/cleverbooks/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/cleverbooks/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/cleverbooks/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/cleverbooks/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/cleverbooks/index.html",
+    "main.c4a8b923.css.map": "/cleverbooks/static/css/main.c4a8b923.css.map",
+    "main.44fa3b78.js.map": "/cleverbooks/static/js/main.44fa3b78.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4a8b923.css",
+    "static/js/main.44fa3b78.js"
+  ]
+}
