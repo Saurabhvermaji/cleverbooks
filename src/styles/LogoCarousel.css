@@ -19,9 +19,9 @@
 
 @media (max-width:768px) {
     .logo-carousel img {
-            width: 80%;
-            height: auto;
-            display: block;
-            margin: auto;
-        }
+        width: 80%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
 }

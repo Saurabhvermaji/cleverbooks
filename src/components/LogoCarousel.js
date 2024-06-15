@@ -26,15 +26,15 @@ const logos = [
 const LogoCarousel = () => {
     
     const settings = {
-        dots: false, // Hide dots
-        infinite: true, // Continuous loop
-        speed: 1000, // Scroll speed
-        slidesToShow: 5, // Number of logos to show at a time
-        slidesToScroll: 1, // Number of logos to scroll at a time
+        dots: false, 
+        infinite: true, 
+        speed: 1000,
+        slidesToShow: 5, 
+        slidesToScroll: 1, 
         autoplay: true,
-        autoplaySpeed: 0, // Continuous autoplay
-        cssEase: 'linear', // Linear easing for smooth scrolling
-        rtl: false // Set to true if you want to scroll to the left
+        autoplaySpeed: 0, 
+        cssEase: 'linear', 
+        rtl: false 
     };
 
     return (
@@ -51,3 +51,5 @@ const LogoCarousel = () => {
 };
 
 export default LogoCarousel;
+
+//Note : step1 : npm install react-slick slick-carousel
