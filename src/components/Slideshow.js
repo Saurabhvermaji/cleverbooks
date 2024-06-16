@@ -61,7 +61,7 @@ const Slideshow = () => {
     }, [currentSlide, isAnimating, totalSlides]);
 
     return (
-        <div className='pagal'>
+        <div className='myslidehow'>
             <h1>Get Crest and get...</h1>
             <div className="slideshow-container">
                 <div className="slideshow-content" style={{ transform: `translateX(-${currentSlide * 100}%)`, transition: isAnimating ? 'transform 0.5s ease' : 'none' }}>
