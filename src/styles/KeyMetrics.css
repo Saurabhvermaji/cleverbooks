@@ -6,6 +6,7 @@
     height: 80vh;
     overflow: hidden;
     box-sizing: border-box;
+    margin-top: 20px;
 }
 
 .keyiconbuttonContainer {
@@ -85,6 +86,12 @@
 .metric-description {
     font-size: 1.2rem;
     color: #555;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .key-metrics {
+        height: 50vh;
+    }
 }
 
 @media (max-width : 768px) {

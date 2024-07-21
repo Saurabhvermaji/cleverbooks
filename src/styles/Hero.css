@@ -53,6 +53,10 @@
         border-radius: 0;
     }
 
+    .herotextcontainer {
+        margin: 20px;
+    }
+
     .herotextcontainer h1 {
         font-size: 1.5rem;
     }

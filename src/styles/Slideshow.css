@@ -11,14 +11,12 @@
 .slideshow-container {
     border-radius: 20px;
     overflow: hidden;
-    /* Hide overflow to ensure smooth animation */
     background-color: white;
 }
 
 .slideshow-content {
     display: flex;
     transition: transform 0.5s ease;
-    /* Apply transition for smooth sliding animation */
 }
 
 .slide {
@@ -27,7 +25,6 @@
     align-items: center;
     height: 450px;
     flex: 0 0 100%;
-    /* Ensure each slide takes up full width */
 }
 
 .slide-image {
@@ -70,13 +67,36 @@
     right: 0;
 }
 
-@media (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .myslidehow {
+        background-color: rgb(243, 237, 237);
+        padding: 20px;
+        position: relative;
+    }
+
+    .slideshow-container {
+        border-radius: 10px;
+        margin: 0 auto;
+    }
+
+    .slide-text {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .myslidehow {
+        padding: 20px;
+    }
+
     .pagal {
         padding: 50px;
     }
 
-    .pagal h1 {
-        font-size: 1.5rem;
+    .myslidehow h1 {
+        font-size: 22px;
+        text-align: center;
     }
 
     .slide {
@@ -89,12 +109,21 @@
     }
 
     .slide-text h2 {
-        font-size: 13px;
+        font-size: 18px;
     }
 
     .prev,
     .next {
-        margin: 2px;
+        transform: none;
+        width: 30px;
+        height: 30px;
+        margin: 100px;
+        font-size: 10px;
+    }
+
+    .prev,
+    .next {
+        margin: 20px;
     }
 
     .slide-image {

@@ -12,7 +12,7 @@
 .questions {
     display: flex;
     justify-content: space-between;
-    margin: 0 30px;
+    margin: 0 10px;
 }
 
 .question-box {
@@ -43,7 +43,20 @@
     font-size: 14px;
 }
 
-@media (max-width : 868px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .questions {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin: 0 10px;
+    }
+
+    .question-box {
+        margin: 10px auto;
+        width: 80%;
+    }
+}
+
+@media (max-width : 767px) {
 
     .questions {
         display: flex;

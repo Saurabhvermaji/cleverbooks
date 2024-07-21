@@ -22,7 +22,7 @@ const Slideshow = () => {
         },
         {
             image: 'https://cdn.prod.website-files.com/639b3e775b326dcf7cea3e70/639b3e775b326dab14ea3f0b_Purpose-built%20%26%20ever-improving%20tech.svg',
-            heading: 'Purpose-built & ever-improving tech',
+            heading: 'Ever improving tech',
             content: 'Our demand forecasting engine has been meticulously-built, while our ML engine constantly trains on years of data and is ever-evolving.'
         },
     ];
